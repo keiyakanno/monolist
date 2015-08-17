@@ -1,0 +1,3 @@
+<% user_list.each do |user| %>
+  <%= link_to gravatar_for(user, :size => 25), user_path(user.id) %>
+<% end %>
